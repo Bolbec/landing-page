@@ -4,7 +4,6 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
 
@@ -90,13 +89,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 48px 15% 96px 15%;
 }
 
 .main h1 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 48px 0;
+    margin-bottom: 48px;
 }
 
 .content-main {
@@ -122,4 +122,79 @@ body {
     margin-top: 8px;
     text-align: center;
     color: rgb(116, 116, 116);
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    padding: 5% 25% 5% 25%;
+}
+
+.inspiring-quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.inspiring-quote-signature {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+
+.cta {
+    background-color: white;
+    display: flex;
+    padding: 5% 15% 5% 10%;
+}
+
+.cta-body {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+    gap: 24px;
+}
+
+.cta-body a {
+        /*FORMA CORRECTA DE HACER EL BUTTON DE SIGNUP?*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 130px;
+        height: 40px;
+        background-color: #3882F6;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+}
+
+.cta-text h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.cta-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 120%;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 24px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 18px;
 }
