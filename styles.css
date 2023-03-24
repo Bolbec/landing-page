@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 20px 15% 20px 15%; /*USE 20% OR % PADDING. IS CORRECT?*/
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.menu ul {
+    display: flex;
+    gap: 24px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.parte-tortuga {
+    display: flex;
+    padding: 100px 15% 100px 15%;
+    background-color: #1F2937;
+    gap: 24px;
+}
+
+.parte-tortuga-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.parte-tortuga-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 120%;
+}
+
+.parte-tortuga-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 120%;
+}
+
+.parte-tortuga-left a { /*FORMA CORRECTA DE HACER EL BUTTON DE SIGNUP?*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.parte-tortuga-right {
+    width: 50%;
+}
+
+.parte-tortuga-right img {
+    max-width: 100%; /*QUE ONDA ESTO?? PARA HACER Q SE QUEDE BIEN*/ 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 48px 0;
+}
+
+.content-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.card-text p{
+    margin-top: 8px;
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
